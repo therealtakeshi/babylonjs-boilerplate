@@ -4,12 +4,15 @@
   "description": "",
   "main": "src/main.js",
   "dependencies": {
-    "babylonjs": "^2.3.0",
-    "browserify": "^13.0.0",
+    "babylonjs": "^3.1.1",
+    "browserify": "^15.2.0",
+    "cannon": "^0.6.2",
     "jquery": "^2.2.0",
     "stats.js": "0.0.14-master"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.1",
     "gulp-download": "0.0.1",

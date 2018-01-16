@@ -1,3 +1,5 @@
+import BABYLON from 'babylonjs';
+
 // Grab the canvas and initialize the engine
 var canvas = document.getElementById("canvas");
 var engine = new BABYLON.Engine(canvas, true);

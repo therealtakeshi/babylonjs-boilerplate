@@ -1,3 +1,5 @@
+import BABYLON from 'babylonjs';
+
 var scene = require('./engine/scene');
 
 // Add first person player camera with physics
@@ -9,7 +11,7 @@ var camera = new BABYLON.FreeCamera(
 camera.setTarget(new BABYLON.Vector3(0, 0, 0));
 camera.checkCollisions = true;
 camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
-camera.applyGravity = true;
+// camera.applyGravity = true;
 
 // Add camera controls to the canvas
 scene.activeCamera.attachControl(canvas);
